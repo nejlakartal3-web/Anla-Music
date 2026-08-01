@@ -27,4 +27,7 @@
   </ul>
 
 </body>
-</html>
+</html><button>Şarkı Oluştur</button>
+<button>Giriş Yap</button><a href="music.html">
+  <button>🎵 Music Studio'ya Git</button>
+</a>
