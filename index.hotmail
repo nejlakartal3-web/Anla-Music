@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anla Music</title>
+</head>
+<body>
+
+  <h1>🎵 Anla Music</h1>
+  <h2>Yapay Zekâ ile Müzik Oluştur</h2>
+
+  <p>Kendi şarkını saniyeler içinde oluştur, dinle ve paylaş.</p>
+
+  <button>Şarkı Oluştur</button>
+  <button>Giriş Yap</button>
+
+  <hr>
+
+  <h3>Öne Çıkan Özellikler</h3>
+
+  <ul>
+    <li>🎤 AI ile şarkı üret</li>
+    <li>🎼 Farklı müzik tarzları</li>
+    <li>📥 Şarkını indir</li>
+    <li>🌍 Dünyayla paylaş</li>
+  </ul>
+
+</body>
+</html>
