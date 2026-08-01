@@ -3,31 +3,46 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Anla Music</title>
+  <title>Anla-Music</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-  <h1>🎵 Anla Music</h1>
-  <h2>Yapay Zekâ ile Müzik Oluştur</h2>
+  <h1>🎵 Anla-Music</h1>
+  <p>Yeni nesil müzik deneyimi</p>
 
-  <p>Kendi şarkını saniyeler içinde oluştur, dinle ve paylaş.</p>
+  <div class="music-card">
+    <h2>Yeni Şarkı</h2>
+    <p>Anla-Music Özel</p>
 
-  <button>Şarkı Oluştur</button>
-  <button>Giriş Yap</button>
+    <audio controls>
+      <source src="sarki.mp3" type="audio/mpeg">
+    </audio>
 
-  <hr>
+    <button>İndir</button>
+  </div>
 
-  <h3>Öne Çıkan Özellikler</h3>
 
-  <ul>
-    <li>🎤 AI ile şarkı üret</li>
-    <li>🎼 Farklı müzik tarzları</li>
-    <li>📥 Şarkını indir</li>
-    <li>🌍 Dünyayla paylaş</li>
-  </ul>
+  <div class="music-card">
+    <h2>Kalbimde İz</h2>
+    <p>Anla-Music</p>
+
+    <audio controls>
+      <source src="sarki2.mp3" type="audio/mpeg">
+    </audio>
+
+    <button>İndir</button>
+  </div>
+
+
+  <div class="about">
+    <h2>Hakkımızda</h2>
+    <p>
+      Anla-Music, müziği ve yapay zekayı bir araya getiren
+      yeni nesil bir müzik platformudur.
+    </p>
+  </div>
 
 </body>
-</html><button>Şarkı Oluştur</button>
-<button>Giriş Yap</button><a href="music.html">
-  <button>🎵 Music Studio'ya Git</button>
-</a>
+</html>
