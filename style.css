@@ -42,4 +42,15 @@ ul {
 
 li {
   margin: 10px 0;
+}div {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 15px;
+  max-width: 400px;
+}
+
+audio {
+  width: 90%;
+  margin: 20px;
 }
