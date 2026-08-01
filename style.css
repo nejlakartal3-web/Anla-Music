@@ -42,8 +42,8 @@ ul {
 
 li {
   margin: 10px 0;
-}div {
-  background: rgba(255, 255, 255, 0.15);
+}div {.                          
+                    background: rgba(255, 255, 255, 0.15);
   padding: 20px;
   margin: 20px auto;
   border-radius: 15px;
