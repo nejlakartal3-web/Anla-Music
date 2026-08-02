@@ -17,7 +17,47 @@
 <main>
 
 <section>
+function generateLyrics(){
 
+let title = document.getElementById("songTitle").value;
+let topic = document.getElementById("songTopic").value;
+let genre = document.getElementById("songGenre").value;
+let mood = document.getElementById("songMood").value;
+
+if(title==="" || topic===""){
+alert("Şarkı adı ve konu yazın.");
+return;
+}
+
+let lyrics = `
+🎵 ${title}
+
+Tarz: ${genre}
+Duygu: ${mood}
+
+1. Kıta:
+${topic} ile başladı bu hikaye,
+Kalbimde saklı binlerce kelime.
+Geceler anlatır eski anıları,
+Yollar götürür yeni yarınlara.
+
+Nakarat:
+Ben hâlâ buradayım,
+Hayallerimle ayaktayım.
+Dün geçti, bugün benim,
+Yeni bir şarkıyla yeniden doğarım.
+
+2. Kıta:
+Rüzgar eser uzaklardan,
+Bir umut doğar yarınlardan.
+Sesim ulaşır dünyaya,
+Bu şarkı kalır hatıra.
+`;
+
+document.getElementById("lyricsResult").innerHTML =
+`<h3>${title}</h3><pre>${lyrics}</pre>`;
+
+}
 <h2>🎼 Şarkı Bilgileri</h2>
 
 <p>Şarkı Adı</p>
