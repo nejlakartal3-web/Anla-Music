@@ -218,4 +218,14 @@ footer {
 
 .music-card h3 {
   margin-top: 0;
+}.                            .cover {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  background: rgba(255,255,255,0.25);
 }
