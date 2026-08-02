@@ -149,4 +149,63 @@ button:hover {
 
 h1 {
   font-size: 40px;
+}.                             /* Anla-Music Tasarım */
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+section {
+  background: rgba(255,255,255,0.15);
+  padding: 25px;
+  margin: 25px auto;
+  border-radius: 20px;
+  max-width: 650px;
+}
+
+input, select, textarea {
+  width: 90%;
+  padding: 12px;
+  margin: 8px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+button {
+  background: #ff4081;
+  color: white;
+  padding: 14px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 8px;
+  font-weight: bold;
+}
+
+footer {
+  margin-top: 30px;
 }
