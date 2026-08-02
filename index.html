@@ -22,7 +22,38 @@
   <a href="premium.html">💎 Premium</a>
   <a href="login.html">🔐 Giriş Yap</a>
 </nav>
+<main>
 
+  <h2>🎵 Yapay Zekâ ile Şarkı Oluştur</h2>
+
+  <input type="text" id="title" placeholder="Şarkı Adı">
+
+  <textarea id="topic" placeholder="Şarkının konusu"></textarea>
+
+  <select id="genre">
+    <option>Pop</option>
+    <option>Rap</option>
+    <option>Rock</option>
+    <option>Arabesk</option>
+    <option>Slow</option>
+    <option>Türk Halk Müziği</option>
+  </select>
+
+  <select id="mood">
+    <option>Mutlu</option>
+    <option>Hüzünlü</option>
+    <option>Romantik</option>
+    <option>Enerjik</option>
+    <option>Duygusal</option>
+  </select>
+
+  <button onclick="createSong()">
+    🚀 Şarkı Oluştur
+  </button>
+
+  <div id="result"></div>
+
+</main>
 <main>
 
 <section>
