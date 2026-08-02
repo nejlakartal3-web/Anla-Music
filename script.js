@@ -36,4 +36,18 @@ function createSong() {
     melodi ve ses oluşturma özellikleriyle gelişecek.
     </p>
   `;
+}.                             function saveProfile() {
+
+  const username = document.getElementById("username").value.trim();
+
+  if (!username) {
+    alert("Lütfen kullanıcı adı girin.");
+    return;
+  }
+
+  localStorage.setItem("anlaUser", username);
+
+  document.getElementById("profileResult").innerHTML =
+  "🎵 Hoş geldin " + username;
+
 }
