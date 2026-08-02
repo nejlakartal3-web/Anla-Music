@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Anla-Music | Yapay Zekâ ile Müzik</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+<h1>🎵 Anla-Music</h1>
+<p>Yapay zekâ ile kendi şarkını oluştur, klibini hazırla ve paylaş.</p>
+</header>
+
+
+<nav>
+<a href="#">🏠 Ana Sayfa</a>
+<a href="#music">🎵 AI Müzik</a>
+<a href="#video">🎬 AI Video</a>
+<a href="#premium">💎 Premium</a>
+<a href="#profile">👤 Profil</a>
+</nav>
+
+
+<main>
+
+<section id="music">
+
+<h2>🎵 Yapay Zekâ Şarkı Stüdyosu</h2>
+
+<input id="title" placeholder="Şarkı adı">
+
+<textarea id="topic" placeholder="Şarkının konusu"></textarea>
+
+
+<select id="genre">
+<option>Pop</option>
+<option>Rap</option>
+<option>Rock</option>
+<option>Arabesk</option>
+<option>Slow</option>
+<option>Türk Halk Müziği</option>
+</select>
+
+
+<select id="mood">
+<option>Mutlu</option>
+<option>Hüzünlü</option>
+<option>Romantik</option>
+<option>Duygusal</option>
+<option>Enerjik</option>
+</select>
+
+
+<button onclick="createSong()">
+🚀 Şarkı Oluştur
+</button>
+
+
+<div id="result"></div>
+
+</section>
+
+
+
+<section id="video">
+
+<h2>🎬 AI Video</h2>
+
+<p>
+Yapay zekâ ile müzik klibi oluşturma bölümü yakında.
+</p>
+
+</section>
+
+
+
+<section id="premium">
+
+<h2>💎 Anla-Music Premium</h2>
+
+<ul>
+<li>🎵 Daha fazla şarkı üretme</li>
+<li>🎧 Kaliteli ses seçenekleri</li>
+<li>🎨 Kapak görseli oluşturma</li>
+<li>💿 Şarkıları kaydetme</li>
+</ul>
+
+<button>
+⭐ Premium'a Geç
+</button>
+
+</section>
+
+
+
+<section id="profile">
+
+<h2>👤 Kullanıcı Profili</h2>
+
+<input id="username" placeholder="Kullanıcı adı">
+
+<button onclick="saveProfile()">
+💾 Kaydet
+</button>
+
+<p id="profileResult"></p>
+
+</section>
+
+
+</main>
+
+
+
+<footer>
+
+<p>© 2026 Anla-Music</p>
+
+<p>
+📜 Kullanım Koşulları |
+🔒 Gizlilik |
+📩 İletişim
+</p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
