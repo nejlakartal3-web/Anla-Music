@@ -62,7 +62,36 @@
 <footer>
 <p>© 2026 Anla-Music</p>
 </footer>
+<div class="music-generator">
 
+<h2>🎤 AI Şarkı Sözü Üretici</h2>
+
+<input id="songTitle" type="text" placeholder="Şarkı adı">
+
+<input id="songTopic" type="text" placeholder="Konu (aşk, hayat, deniz...)">
+
+<select id="songGenre">
+<option>Pop</option>
+<option>Rap</option>
+<option>Rock</option>
+<option>Arabesk</option>
+<option>Slow</option>
+<option>Türk Halk Müziği</option>
+</select>
+
+<select id="songMood">
+<option>Mutlu</option>
+<option>Hüzünlü</option>
+<option>Romantik</option>
+<option>Enerjik</option>
+<option>Duygusal</option>
+</select>
+
+<button onclick="generateLyrics()">🎵 Şarkı Oluştur</button>
+
+<div id="lyricsResult"></div>
+
+</div>
 <script>
 function muzikOlustur() {
 alert("🎵 Şarkın hazırlanıyor... Yapay zekâ müzik oluşturma sistemi yakında aktif olacak!");
