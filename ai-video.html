@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Video - Anla-Music</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header>
+<h1>🎬 AI Video Oluştur</h1>
+<p>Müziğin için yapay zekâ ile klip oluştur.</p>
+</header>
+
+
+<main>
+
+<section>
+
+<h2>🎥 Video Oluştur</h2>
+
+
+<p>Şarkı Adı</p>
+<input id="videoSong" type="text" placeholder="Örn: Ah Ne Kader">
+
+
+<p>Video Konusu</p>
+<input id="videoTopic" type="text" placeholder="Örn: Gün batımında sahilde geçen bir klip">
+
+
+<p>Video Stili</p>
+
+<select id="videoStyle">
+
+<option>Sinematik</option>
+<option>Anime</option>
+<option>3D</option>
+<option>Gerçekçi</option>
+<option>Çizgi Film</option>
+
+</select>
+
+
+<p>Açıklama</p>
+
+<textarea id="videoDesc" rows="6" placeholder="Videoda görmek istediğin sahneleri yaz."></textarea>
+
+
+<br><br>
+
+
+<button onclick="createVideo()">
+🎬 AI Video Oluştur
+</button>
+
+
+<div id="videoResult"></div>
+
+
+</section>
+
+
+<br>
+
+
+<a href="index.html">
+<button>🏠 Ana Sayfaya Dön</button>
+</a>
+
+
+</main>
+
+
+<footer>
+<p>© 2026 Anla-Music</p>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
