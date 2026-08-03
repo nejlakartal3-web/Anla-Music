@@ -45,10 +45,7 @@ function createSong() {
   const genre = document.getElementById("genre").value;
   const mood = document.getElementById("mood").value;
 
-  const title = document.getElementById("title").value.trim();
-  const topic = document.getElementById("topic").value.trim();
-  const genre = document.getElementById("genre").value;
-  const mood = document.getElementById("mood").value;
+  
 
   if (!title || !topic) {
     alert("Lütfen şarkı adı ve konusunu girin.");
