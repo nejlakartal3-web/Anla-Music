@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Müzik Stüdyosu - Anla-Music</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>🎵 Anla-Music AI Stüdyo</h1>
+<p>Kendi şarkını yapay zekâ ile oluştur.</p>
+</header>
+
+
+<main>
+
+<section>
+
+<h2>🎤 Yeni Şarkı Oluştur</h2>
+
+<label>Şarkı Adı</label>
+<input id="songTitle" placeholder="Örn: Deniz Kıyısı">
+
+
+<label>Müzik Tarzı</label>
+<select id="songGenre">
+<option>Pop</option>
+<option>Arabesk Pop</option>
+<option>Slow</option>
+<option>Rap</option>
+<option>Rock</option>
+<option>Türk Halk Müziği</option>
+</select>
+
+
+<label>Duygu</label>
+<select id="songMood">
+<option>Romantik ❤️</option>
+<option>Hüzünlü 😢</option>
+<option>Mutlu 😊</option>
+<option>Enerjik 🔥</option>
+<option>Motivasyon 💪</option>
+</select>
+
+
+<label>Şarkı Konusu</label>
+
+<textarea id="songTopic" rows="5"
+placeholder="Şarkının hikayesini yaz..."></textarea>
+
+
+<button onclick="generateLyrics()">
+🚀 Şarkımı Oluştur
+</button>
+
+
+<div id="lyricsResult"></div>
+
+
+</section>
+
+
+<br>
+
+<a href="index.html">
+<button>🏠 Ana Sayfa</button>
+</a>
+
+
+</main>
+
+
+<footer>
+<p>© 2026 Anla-Music 🎵</p>
+</footer>
+
+
+
+<script>
+
+function generateLyrics(){
+
+let title=document.getElementById("songTitle").value;
+let genre=document.getElementById("songGenre").value;
+let mood=document.getElementById("songMood").value;
+let topic=document.getElementById("songTopic").value;
+
+
+if(title==="" || topic===""){
+alert("Lütfen şarkı adı ve konusu girin.");
+return;
+}
+
+
+let lyrics=`
+
+🎵 ${title}
+
+Tarz: ${genre}
+Duygu: ${mood}
+
+
+🎶 1. Kıta
+
+${topic}
+
+Kalbimde kalan eski izler,
+Geceye karışır sessiz sözler.
+Her nota yeni bir umut,
+Her şarkı yeniden bir hayat.
+
+
+🎤 Nakarat
+
+Ben bu şarkıyla varım,
+Hayallerimi yeniden ararım.
+Uzaklarda duysan bile,
+Kalbim hep seninle.
+
+
+🎶 2. Kıta
+
+Yollar anlatır hikayemi,
+Rüzgar taşır dileğimi.
+Bugün yeniden başlarım,
+Kendi sesimi bulurum.
+
+`;
+
+
+document.getElementById("lyricsResult").innerHTML=
+`
+<div class="song-card">
+<h2>${title}</h2>
+<pre>${lyrics}</pre>
+
+<button>
+🎧 Dinle (Yakında)
+</button>
+
+<button>
+💾 Kaydet
+</button>
+
+</div>
+`;
+
+}
+
+</script>
+
+
+</body>
+</html>
