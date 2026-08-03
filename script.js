@@ -1,4 +1,42 @@
-console.log("Anla-Music hazır!");
+function createVideo(){
+
+const song = document.getElementById("videoSong").value.trim();
+const topic = document.getElementById("videoTopic").value.trim();
+const style = document.getElementById("videoStyle").value;
+const desc = document.getElementById("videoDesc").value.trim();
+
+
+if(!song || !topic){
+
+alert("Lütfen şarkı adı ve video konusu girin.");
+return;
+
+}
+
+
+document.getElementById("videoResult").innerHTML = `
+
+<hr>
+
+<h3>🎬 ${song}</h3>
+
+<p><b>Konu:</b> ${topic}</p>
+
+<p><b>Stil:</b> ${style}</p>
+
+<p><b>Açıklama:</b> ${desc}</p>
+
+<h4>✨ Anla AI Klip Taslağı</h4>
+
+<p>
+${style} tarzında,
+duyguyu yansıtan sahnelerle
+yapay zekâ destekli müzik klibi hazırlanıyor.
+</p>
+
+`;
+
+}console.log("Anla-Music hazır!");
 
 function createSong() {
 
