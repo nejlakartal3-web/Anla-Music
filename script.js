@@ -1,4 +1,4 @@
-function createVideo(){
+console.log("Anla-Music hazır!");                function createVideo(){
 
 const song = document.getElementById("videoSong").value.trim();
 const topic = document.getElementById("videoTopic").value.trim();
