@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AI Müzik - Anla-Music</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<header>
+
+<h1>🎵 AI Müzik Stüdyosu</h1>
+
+<p>Yapay zekâ ile kendi şarkını oluştur.</p>
+
+</header>
+
+
+
+<main>
+
+
+<section>
+
+
+<h2>🎤 Şarkı Oluştur</h2>
+
+
+<p>Şarkı Adı</p>
+
+<input id="title" type="text" placeholder="Örn: Ah Ne Kader">
+
+
+
+<p>Şarkı Konusu</p>
+
+<textarea id="topic" placeholder="Örn: Hayata sitem"></textarea>
+
+
+
+<p>Müzik Türü</p>
+
+<select id="genre">
+
+<option>Arabesk</option>
+<option>Pop</option>
+<option>Rap</option>
+<option>Rock</option>
+<option>Türk Halk Müziği</option>
+<option>Elektronik</option>
+
+</select>
+
+
+
+<p>Duygu</p>
+
+<select id="mood">
+
+<option>Hüzünlü</option>
+<option>Romantik</option>
+<option>Mutlu</option>
+<option>Enerjik</option>
+<option>Duygusal</option>
+
+</select>
+
+
+
+<br><br>
+
+
+<button onclick="createSong()">
+🚀 Şarkı Oluştur
+</button>
+
+
+
+<div id="result"></div>
+
+
+</section>
+
+
+<br>
+
+
+<a href="index.html">
+
+<button>
+🏠 Ana Sayfaya Dön
+</button>
+
+</a>
+
+
+
+</main>
+
+
+
+<footer>
+
+<p>© 2026 Anla-Music</p>
+
+</footer>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
