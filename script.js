@@ -45,8 +45,6 @@ function createSong() {
   const genre = document.getElementById("genre").value;
   const mood = document.getElementById("mood").value;
 
- function createSong() {
-
   const title = document.getElementById("title").value.trim();
   const topic = document.getElementById("topic").value.trim();
   const genre = document.getElementById("genre").value;
