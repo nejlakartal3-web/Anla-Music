@@ -83,7 +83,25 @@ function createSong() {
     Hayallerimle yürürüm ileri,
     Bırakmam asla güzel yarınları.
     `;
+  else if (genre === "Slow") {
 
+    lyrics = `
+    🎶 Kıta 1:
+
+    Beni güzel anla, kalbimi duy,
+    Sessiz gecelerde adını bul.
+    Sevgiyle yazılmış her bir sözüm,
+    Sana kalan en güzel duygum.
+
+    🎤 Nakarat:
+
+    Beni güzel anla ve sev,
+    Kalbimde saklı olanı gör.
+    Bir ömür yanımda kal,
+    Sevgimiz olsun sonsuz bir yol.
+    `;
+
+  }
   } else {
 
     lyrics = `
