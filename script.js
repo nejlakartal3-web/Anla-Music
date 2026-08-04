@@ -1,4 +1,4 @@
-console.log("Anla-Music hazır!");                function createVideo(){
+const API_KEY =AQ.Ab8RN6LD4kpchErz5TLuUnBfci3zU4XGS7TTqitmT4UGnIMpnwconsole.log("Anla-Music hazır!");                function createVideo(){
 
 const song = document.getElementById("videoSong").value.trim();
 const topic = document.getElementById("videoTopic").value.trim();
